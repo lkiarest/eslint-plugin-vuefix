@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-vuefix",
+  "version": "0.1.0",
+  "description": "eslint plugin for autofix of .vue file",
+  "main": "lib/index.js",
+  "dependencies": {
+    "parse5": "^2.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkiarest/eslint-plugin-vuefix.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "vue",
+    "autofix",
+    "linter"
+  ],
+  "author": "qtx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lkiarest/eslint-plugin-vuefix/issues"
+  },
+  "homepage": "https://github.com/lkiarest/eslint-plugin-vuefix#readme"
+}
