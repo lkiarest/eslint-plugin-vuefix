@@ -1,10 +1,6 @@
 # eslint-plugin-vuefix
 
-自动修复(autofix) .vue 文件
-
-由于eslint插件机制不完善，在sublime中作为插件使用的时候最好执行两次 lint 查看结果。
-
-_参考了之前存在的npm插件 “eslint-plugin-vue”(Twiknight)，感谢作者 --其只支持vue文件的错误提示，并没有fix的功能)_
+根据eslint配置的规则自动修复(autofix) .vue 文件
 
 ## Installation
 
@@ -12,7 +8,7 @@ _参考了之前存在的npm插件 “eslint-plugin-vue”(Twiknight)，感谢�
 $ npm install eslint-plugin-vuefix --save-dev
 ```
 
-需要与eslint使用同样的方式安装
+__需要与eslint使用同样的方式安装__
 
 ## Usage
 
@@ -29,3 +25,6 @@ $ npm install eslint-plugin-vuefix --save-dev
 ## License
 
 MIT
+
+
+> 参考了 vue 语法检查插件 “eslint-plugin-vue”(Twiknight)。
