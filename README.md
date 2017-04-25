@@ -1,30 +1,39 @@
 # eslint-plugin-vuefix
 
-根据eslint配置的规则自动修复(autofix) .vue 文件
-
-## Installation
-
-```
-$ npm install eslint-plugin-vuefix --save-dev
-```
-
-__需要与eslint使用同样的方式安装__
+This ESLint plugin extracts and auto-fix scripts from .vue files.
 
 ## Usage
 
-在“.eslintrc” 文件中添加插件声明
+Simply install via npm install --save-dev eslint-plugin-vuefix and add the plugin to your ESLint configuration. See [ESLint documentation](http://eslint.org/docs/user-guide/configuring#configuring-plugins).
+
+Plugin should be installed __the same way as eslint：__
+
+```shell
+$ npm i eslint -D # local
+$ npm i eslint-plugin-vuefix -D # local
+# or
+$ npm i eslint -g # global
+$ npm i eslint-plugin-vuefix -g # global
+```
+
+Example:
 
 ```json
 {
     "plugins": [
         "vuefix"
-    ]
+    ],
+    "rules": {
+        "vuefix/vuefix": [2, {"auto": true}]
+    }
 }
 ```
 
+## Options
+
+- __auto__  (Boolean, default: true). If set to false, the file will not be overwritten automatically
+
 ## License
 
-MIT
+[MIT](LICENSE) © qintx
 
-
-> 参考了 vue 语法检查插件 “eslint-plugin-vue”(Twiknight)。
