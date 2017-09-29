@@ -33,6 +33,9 @@ Example:
 
 - __auto__  (Boolean, default: true). If set to false, the file will not be overwritten automatically
 
+## A Helper Tool
+If you create a new .vue file, and just type 'vue' to save, this plugin will generate an sample code for your vue component.
+
 ## License
 
 [MIT](LICENSE) © qintx
