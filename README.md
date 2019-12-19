@@ -2,6 +2,8 @@
 
 This ESLint plugin extracts and auto-fix scripts from .vue files.
 
+__For vue-cli@3, please use [official vue eslint plugin](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint)__
+
 ## Usage
 
 Simply install via npm install --save-dev eslint-plugin-vuefix and add the plugin to your ESLint configuration. See [ESLint documentation](http://eslint.org/docs/user-guide/configuring#configuring-plugins).
